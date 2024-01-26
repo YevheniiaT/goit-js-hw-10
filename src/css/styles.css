@@ -23,3 +23,47 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
+.timer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+  margin-top: 10px;
+  
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+    align-items: center;
+    color: navy;
+}
+
+.value {
+  font-size: 30px;
+  color: navy;
+  
+}
+
+.wrap{
+  display: flex;
+  justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+  
+}
+.input {
+font-size: 20px;
+height: 30px;
+border-color: black;
+}
+
+.start-btn {
+  background-color: rgb(19, 19, 110);
+  color: aliceblue;
+  width: 100px;
+  height: 30px;
+  border-color: black;
+}
