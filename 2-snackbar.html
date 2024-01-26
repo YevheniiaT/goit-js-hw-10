@@ -7,10 +7,31 @@
     <title>Document</title>
     
   <script type="module" crossorigin src="/goit-js-hw-10/assets/modulepreload-polyfill-ec808ebb.js"></script>
-  <link rel="stylesheet" href="/goit-js-hw-10/assets/styles-45983100.css">
+  <link rel="stylesheet" href="/goit-js-hw-10/assets/styles-5d50de06.css">
 </head>
 
 <body>
+    <a class="back-btn" href="./index.html">Back</a>
+    <form class="form">
+        <label>
+            Delay (ms)
+            <input type="number" name="delay" required />
+        </label>
+    
+        <fieldset>
+            <legend>State</legend>
+            <label>
+                <input type="radio" name="state" value="fulfilled" required />
+                Fulfilled
+            </label>
+            <label>
+                <input type="radio" name="state" value="rejected" required />
+                Rejected
+            </label>
+        </fieldset>
+    
+        <button type="submit">Create notification</button>
+    </form>
     
 </body>
 
